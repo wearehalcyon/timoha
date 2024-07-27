@@ -16,5 +16,6 @@
             <div class="section" id="section4">Section 4</div>
         </div>
     </div>
+    <script src="./assets/js/plugins/jquery.js"></script>
 </body>
 </html>
