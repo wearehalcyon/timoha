@@ -10,18 +10,10 @@
     <link rel="stylesheet" href="./assets/css/app.css" />
     <link rel="preload" as="font" type="font/woff2" href="https://fonts.gstatic.com/s/pangolin/v11/cY9GfjGcW0FPpi-tWMfA79zqiA.woff2" crossorigin="anonymous">
     <link rel="preload" as="font" type="font/woff2" href="https://fonts.gstatic.com/s/pangolin/v11/cY9GfjGcW0FPpi-tWMfJ79zqiA.woff2" crossorigin="anonymous">
-    <link rel="preload" as="font" type="font/woff2" href="" crossorigin="anonymous">
-    <link rel="preload" as="font" type="font/woff2" href="" crossorigin="anonymous">
-    <link rel="preload" as="font" type="font/woff2" href="" crossorigin="anonymous">
-    <link rel="preload" as="font" type="font/woff2" href="" crossorigin="anonymous">
-    <link rel="preload" as="font" type="font/woff2" href="" crossorigin="anonymous">
-    <link rel="preload" as="font" type="font/woff2" href="" crossorigin="anonymous">
-    <link rel="preload" as="font" type="font/woff2" href="" crossorigin="anonymous">
-    <link rel="preload" as="font" type="font/woff2" href="" crossorigin="anonymous">
-    <link rel="preload" as="font" type="font/woff2" href="" crossorigin="anonymous">
-    <link rel="preload" as="font" type="font/woff2" href="" crossorigin="anonymous">
-    <link rel="preload" as="font" type="font/woff2" href="" crossorigin="anonymous">
-    <link rel="preload" as="font" type="font/woff2" href="" crossorigin="anonymous">
+    <link rel="preload" as="font" type="font/woff2" href="https://fonts.gstatic.com/s/caveat/v18/Wnz6HAc5bAfYB2Q7azYYmg8.woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" type="font/woff2" href="https://fonts.gstatic.com/s/caveat/v18/Wnz6HAc5bAfYB2Q7YjYYmg8.woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" type="font/woff2" href="https://fonts.gstatic.com/s/pangolin/v11/cY9GfjGcW0FPpi-tWMfA79zqiA.woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" type="font/woff2" href="https://fonts.gstatic.com/s/pangolin/v11/cY9GfjGcW0FPpi-tWMfJ79zqiA.woff2" crossorigin="anonymous">
 </head>
 <body>
     <div id="app">
@@ -48,13 +40,7 @@
             </div>
         </div>
     </div>
-    <div class="preloader">
-        <h1>
-            Ша, погоди!
-            <br>
-            Я рисую для тебя приглашение...
-        </h1>
-    </div>
+    <?php include "partials/preloader.php" ?>
     <script src="./assets/js/plugins/jquery.js"></script>
     <script src="./assets/js/plugins/fullpage.js"></script>
     <script src="./assets/js/plugins/bootstrap.min.js"></script>
