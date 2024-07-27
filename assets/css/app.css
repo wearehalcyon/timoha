@@ -48,6 +48,20 @@
     transform: translateY(0);
   }
 }
+@keyframes bounceInScale {
+  0% {
+    transform: scale(0);
+  }
+  60% {
+    transform: scale(1.2);
+  }
+  80% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 .preloader {
   position: fixed;
   width: 100%;
@@ -101,18 +115,20 @@ body #app #fullpage .section {
   justify-content: center;
 }
 body #app #fullpage .section .fp-overflow {
+  width: 100%;
   height: 100%;
 }
 body #app #fullpage .section .fp-overflow .app-container {
   position: relative;
-  width: 1200px;
+  width: 100%;
   max-width: 1200px;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.1);
 }
 body #app #fullpage .section .fp-overflow .app-container.screen-1 {
   position: relative;
-  background-color: #ffdbdc;
+  background: #ffdbdc url("../images/screen-01-bg.jpg") no-repeat center bottom;
+  background-size: cover;
 }
 body #app #fullpage .section .fp-overflow .app-container.screen-1 .tim-01 {
   position: absolute;
@@ -126,4 +142,29 @@ body #app #fullpage .section .fp-overflow .app-container.screen-1 .tim-01 {
 }
 body #app #fullpage .section .fp-overflow .app-container.screen-1 .tim-01.show {
   animation: bounceIn 0.5s ease-out forwards;
+}
+@media (max-width: 992px) {
+  body #app #fullpage .section .fp-overflow .app-container.screen-1 .tim-01 {
+    right: 20px;
+    max-width: 300px;
+  }
+}
+body #app #fullpage .section .fp-overflow .app-container.screen-1 .tim-01-dialog {
+  width: calc(45% - 40px);
+  position: absolute;
+  bottom: 30%;
+  left: 300px;
+  transform: scale(0);
+  transition: 0.3s;
+  z-index: 10;
+}
+body #app #fullpage .section .fp-overflow .app-container.screen-1 .tim-01-dialog.show {
+  animation: bounceInScale 0.3s ease-out forwards;
+}
+@media (max-width: 992px) {
+  body #app #fullpage .section .fp-overflow .app-container.screen-1 .tim-01-dialog {
+    width: calc(60% - 40px);
+    bottom: 20%;
+    left: 50px;
+  }
 }/*# sourceMappingURL=app.css.map */

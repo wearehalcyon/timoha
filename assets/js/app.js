@@ -25,6 +25,9 @@ jQuery(document).ready(function($){
     setTimeout(function(){
         $('.tim-01').addClass('show');
     }, 1000);
+    setTimeout(function(){
+        $('.tim-01-dialog').addClass('show');
+    }, 1500);
 
 
 
