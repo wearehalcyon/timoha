@@ -1,3 +1,4 @@
+<?php require_once "./bin/kernel.php" ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
