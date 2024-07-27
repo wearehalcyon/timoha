@@ -2,6 +2,7 @@
 @import "./inc/_mixins.scss";
 @import "./inc/_fonts.scss";
 @import "./inc/_animations.scss";
+@import "./inc/_buttons.scss";
 
 // Partials
 @import "partials/_preloader.scss";
@@ -84,6 +85,12 @@ body{
                                 &.show{
                                     transform: translateY(0%);
                                 }
+                            }
+                            .button{
+                                position: absolute;
+                                left: 0;
+                                bottom: 0;
+                                z-index: 10;
                             }
                         }
                     }

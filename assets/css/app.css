@@ -62,6 +62,16 @@
     transform: scale(1);
   }
 }
+.button {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.button a {
+  display: inline-block;
+  color: #fff;
+}
+
 .preloader {
   position: fixed;
   width: 100%;
@@ -183,4 +193,10 @@ body #app #fullpage .section .fp-overflow .app-container.screen-1 .baloons-01 {
 }
 body #app #fullpage .section .fp-overflow .app-container.screen-1 .baloons-01.show {
   transform: translateY(0%);
+}
+body #app #fullpage .section .fp-overflow .app-container.screen-1 .button {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 10;
 }/*# sourceMappingURL=app.css.map */
