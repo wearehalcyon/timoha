@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Timoha Birthday Party Invitation</title>
+    <link rel="stylesheet" href="./assets/css/plugins/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/plugins/fullpage.css" />
     <link rel="stylesheet" href="./assets/css/app.css" />
 </head>
 <body>
@@ -17,5 +19,8 @@
         </div>
     </div>
     <script src="./assets/js/plugins/jquery.js"></script>
+    <script src="./assets/js/plugins/fullpage.js"></script>
+    <script src="./assets/js/plugins/bootstrap.min.js"></script>
+    <script src="./assets/js/app.js"></script>
 </body>
 </html>
