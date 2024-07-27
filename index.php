@@ -12,8 +12,6 @@
     <link rel="preload" as="font" type="font/woff2" href="https://fonts.gstatic.com/s/pangolin/v11/cY9GfjGcW0FPpi-tWMfJ79zqiA.woff2" crossorigin="anonymous">
     <link rel="preload" as="font" type="font/woff2" href="https://fonts.gstatic.com/s/caveat/v18/Wnz6HAc5bAfYB2Q7azYYmg8.woff2" crossorigin="anonymous">
     <link rel="preload" as="font" type="font/woff2" href="https://fonts.gstatic.com/s/caveat/v18/Wnz6HAc5bAfYB2Q7YjYYmg8.woff2" crossorigin="anonymous">
-    <link rel="preload" as="font" type="font/woff2" href="https://fonts.gstatic.com/s/pangolin/v11/cY9GfjGcW0FPpi-tWMfA79zqiA.woff2" crossorigin="anonymous">
-    <link rel="preload" as="font" type="font/woff2" href="https://fonts.gstatic.com/s/pangolin/v11/cY9GfjGcW0FPpi-tWMfJ79zqiA.woff2" crossorigin="anonymous">
 </head>
 <body>
     <div id="app">
