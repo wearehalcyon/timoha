@@ -28,6 +28,15 @@ jQuery(document).ready(function($){
     setTimeout(function(){
         $('.tim-01-dialog').addClass('show');
     }, 1500);
+    setTimeout(function(){
+        $('.baloons-01').addClass('show');
+    }, 2000);
+    setTimeout(function(){
+        $('.tim-01-dialog').removeClass('show');
+    }, 6000);
+    setTimeout(function(){
+        $('.tim-01-dialog-02').addClass('show');
+    }, 6100);
 
 
 
