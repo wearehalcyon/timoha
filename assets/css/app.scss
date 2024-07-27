@@ -86,11 +86,20 @@ body{
                                     transform: translateY(0%);
                                 }
                             }
-                            .button{
+                            .button-imaged{
                                 position: absolute;
                                 left: 0;
-                                bottom: 0;
+                                bottom: 130px;
+                                width: 100%;
+                                text-align: center;
                                 z-index: 10;
+                                a{
+                                    display: inline-block;
+                                    img{
+                                        width: 100%;
+                                        height: auto;
+                                    }
+                                }
                             }
                         }
                     }

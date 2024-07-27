@@ -18,8 +18,10 @@
             <path d="M676.023 21.9571C687.536 21.9571 689.425 14.7899 688.929 11.2064C688.929 3.85712 681.262 2.0066 677.428 2C666.975 2 664.12 8.49397 664 11.7409C664 20.7375 672.015 22.3002 676.023 21.9571Z" fill="white" stroke="black" stroke-width="4"/>
         </svg>
         <img class="baloons-01" src="../assets/images/baloons.webp" alt="Baloons 01" class="baloons-01" width="100" height="100">
-        <div class="button">
-            <a href="#section-2">Погнали!</a>
+        <div class="button-imaged">
+            <a href="#section-2">
+                <img src="../../assets/images/button-go.png" alt="Button Go" width="100" height="100">
+            </a>
         </div>
     </div>
 </div>

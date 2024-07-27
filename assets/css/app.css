@@ -70,6 +70,12 @@
 .button a {
   display: inline-block;
   color: #fff;
+  text-decoration: none;
+  background-image: linear-gradient(#000, #ccc);
+  font-size: 64px;
+  font-family: "Pangolin", serif;
+  border-radius: 8px;
+  padding: 10px 40px;
 }
 
 .preloader {
@@ -194,9 +200,18 @@ body #app #fullpage .section .fp-overflow .app-container.screen-1 .baloons-01 {
 body #app #fullpage .section .fp-overflow .app-container.screen-1 .baloons-01.show {
   transform: translateY(0%);
 }
-body #app #fullpage .section .fp-overflow .app-container.screen-1 .button {
+body #app #fullpage .section .fp-overflow .app-container.screen-1 .button-imaged {
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: 130px;
+  width: 100%;
+  text-align: center;
   z-index: 10;
+}
+body #app #fullpage .section .fp-overflow .app-container.screen-1 .button-imaged a {
+  display: inline-block;
+}
+body #app #fullpage .section .fp-overflow .app-container.screen-1 .button-imaged a img {
+  width: 100%;
+  height: auto;
 }/*# sourceMappingURL=app.css.map */
