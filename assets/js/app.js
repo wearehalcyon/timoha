@@ -9,11 +9,69 @@ jQuery(document).ready(function($){
         setTimeout(function(){
             preloader.find('> h1').text('О! Все, погнали :)');
             setTimeout(function(){
-                preloader.fadeOut(500);
+                preloader.fadeOut(100);
                 playBg.play();
+
+                
             }, 3000);
         }, 3000);
     }, 3000);
+
+
+
+
+
+    // Screen 1 - show Tim
+    setTimeout(function(){
+        $('.tim-01').addClass('show');
+    }, 1000);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     // Fullpage
     new fullpage('#fullpage', {
