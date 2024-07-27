@@ -16,6 +16,6 @@ jQuery(document).ready(function($){
     new fullpage('#fullpage', {
         autoScrolling: true,
         showActiveTooltip: true,
-        scrollingSpeed: 1000
+        scrollingSpeed: 7000
     });
 });
