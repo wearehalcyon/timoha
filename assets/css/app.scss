@@ -1,4 +1,8 @@
 @import "./inc/_variables.scss";
+@import "./inc/_mixins.scss";
+
+// Partials
+@import "partials/_preloader.scss";
 
 *{
     margin: 0;
@@ -8,5 +12,5 @@
 }
 
 body{
-    
+
 }

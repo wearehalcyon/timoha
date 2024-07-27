@@ -18,6 +18,7 @@
             <div class="section" id="section4">Section 4</div>
         </div>
     </div>
+    <div class="preloader"></div>
     <script src="./assets/js/plugins/jquery.js"></script>
     <script src="./assets/js/plugins/fullpage.js"></script>
     <script src="./assets/js/plugins/bootstrap.min.js"></script>
