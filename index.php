@@ -19,7 +19,7 @@
             <?php include "partials/sections.php"; ?>
         </div>
     </div>
-    <?php // include "partials/preloader.php" ?>
+    <?php include "partials/preloader.php" ?>
     <script src="./assets/js/plugins/jquery.js"></script>
     <script src="./assets/js/plugins/fullpage.js"></script>
     <script src="./assets/js/plugins/bootstrap.min.js"></script>

@@ -19,7 +19,7 @@
         </svg>
         <img class="baloons-01" src="../assets/images/baloons.webp" alt="Baloons 01" class="baloons-01" width="100" height="100">
         <div class="button-imaged">
-            <a href="#section-2">
+            <a href="#section-2" class="go">
                 <img src="../../assets/images/button-go.png" alt="Button Go" width="100" height="100">
             </a>
         </div>

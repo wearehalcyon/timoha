@@ -1,3 +1,12 @@
+@keyframes gradient {
+    0%, 100% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+}
+
 @keyframes bounceIn {
     0% {
         transform: translateY(-100%);
@@ -25,5 +34,14 @@
     }
     100% {
         transform: scale(1);
+    }
+}
+
+@keyframes heartbeat {
+    0%, 100%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
     }
 }

@@ -89,16 +89,29 @@ body{
                             .button-imaged{
                                 position: absolute;
                                 left: 0;
-                                bottom: 130px;
+                                bottom: 270px;
                                 width: 100%;
                                 text-align: center;
+                                transition: all .3s;
+                                opacity: 0;
                                 z-index: 10;
+                                @include md{
+                                    bottom: 100px;
+                                }
                                 a{
                                     display: inline-block;
+                                    animation: heartbeat .5s ease infinite;
                                     img{
                                         width: 100%;
                                         height: auto;
+                                        @include md{
+                                            width: 200px;
+                                            height: auto;
+                                        }
                                     }
+                                }
+                                &.show{
+                                    opacity: 1;
                                 }
                             }
                         }
