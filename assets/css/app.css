@@ -31,4 +31,19 @@
   padding: 0;
   outline: none;
   box-sizing: border-box;
+}
+
+body {
+  position: relative;
+}
+body #app {
+  position: relative;
+}
+body #app #fullpage .section {
+  position: relative;
+}
+body #app #fullpage .section .app-container {
+  position: relative;
+  max-width: 1200px;
+  height: auto;
 }/*# sourceMappingURL=app.css.map */
