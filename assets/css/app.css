@@ -177,6 +177,7 @@ body #app #fullpage .section .fp-overflow .app-container.screen-1 .tim-01.show {
 body #app #fullpage .section .fp-overflow .app-container.screen-1 .tim-01-dialog,
 body #app #fullpage .section .fp-overflow .app-container.screen-1 .tim-01-dialog-02 {
   width: calc(45% - 40px);
+  height: auto;
   position: absolute;
   bottom: 30%;
   left: 300px;
@@ -192,7 +193,7 @@ body #app #fullpage .section .fp-overflow .app-container.screen-1 .tim-01-dialog
   body #app #fullpage .section .fp-overflow .app-container.screen-1 .tim-01-dialog,
   body #app #fullpage .section .fp-overflow .app-container.screen-1 .tim-01-dialog-02 {
     width: calc(60% - 40px);
-    bottom: 20%;
+    bottom: 30%;
     left: 50px;
   }
 }
