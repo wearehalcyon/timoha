@@ -41,9 +41,18 @@ body #app {
 }
 body #app #fullpage .section {
   position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
-body #app #fullpage .section .app-container {
+body #app #fullpage .section .fp-overflow {
+  height: 100%;
+}
+body #app #fullpage .section .fp-overflow .app-container {
   position: relative;
+  width: 1200px;
   max-width: 1200px;
-  height: auto;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
 }/*# sourceMappingURL=app.css.map */

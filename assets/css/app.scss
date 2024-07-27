@@ -18,10 +18,19 @@ body{
         #fullpage{
             .section{
                 position: relative;
-                .app-container{
-                    position: relative;
-                    max-width: 1200px;
-                    height: auto;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+                .fp-overflow{
+                    height: 100%;
+                    .app-container{
+                        position: relative;
+                        width: 1200px;
+                        max-width: 1200px;
+                        height: 100%;
+                        background-color: rgba(0,0,0,.1);
+                    }
                 }
             }
         }
