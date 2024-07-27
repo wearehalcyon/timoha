@@ -4,7 +4,7 @@ jQuery(document).ready(function($){
     const preloader = $('.preloader');
     setTimeout(function(){
         preloader.fadeOut(500);
-    }, 1000);
+    }, 100000);
 
     // Fullpage
     new fullpage('#fullpage', {
