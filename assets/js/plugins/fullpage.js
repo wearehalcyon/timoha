@@ -1127,7 +1127,7 @@
       slidesNavPosition: 'bottom',
       scrollBar: false,
       hybrid: false,
-      licenseKey: '',
+      licenseKey: '123',
       //scrolling
       css3: true,
       scrollingSpeed: 700,
@@ -5444,81 +5444,6 @@
       }
     }
 
-    !function () {
-      EventEmitter.on(events.onInitialise, function () {
-        var n, a, l;
-        setState({
-          isValid: (getOptions().licenseKey, n = getOptions().licenseKey, a = function (n) {
-            var e = parseInt("\x35\x31\x34").toString(16);
-            if (!n || n.length < 29 || 4 === n.split(t[0]).length) return null;
-            var r = ["\x45\x61\x63\x68", "\x66\x6f\x72"][i()]().join(""),
-                a = n[["\x73\x70\x6c\x69\x74"]]("-"),
-                l = [];
-            a[r](function (t, n) {
-              if (n < 4) {
-                var r = function (t) {
-                  var n = t[t.length - 1],
-                      e = ["\x4e\x61\x4e", "\x69\x73"][i()]().join("");
-                  return window[e](n) ? o(n) : function (t) {
-                    return t - ACTIVE.length;
-                  }(n);
-                }(t);
-
-                l.push(r);
-                var s = o(t[r]);
-
-                if (1 === n) {
-                  var a = ["\x70\x61", "\x64\x53", "\x74", "\x61\x72\x74"].join("");
-                  s = s.toString()[a](2, "0");
-                }
-
-                e += s, 0 !== n && 1 !== n || (e += "-");
-              }
-            });
-            var f = 0,
-                m = "";
-            return n.split("-").forEach(function (t, n) {
-              if (n < 4) {
-                var _i = 0;
-
-                for (var e = 0; e < 4; e++) {
-                  e !== l[n] && (_i += Math.abs(o(t[e])), isNaN(t[e]) || f++);
-                }
-
-                var r = s(_i);
-                m += r;
-              }
-            }), m += s(f), {
-              v: new Date(e + "T00:00"),
-              o: e.split("-")[2] === 8 * (ACTIVE.length - 2) + "",
-              l: m
-            };
-          }(n), l = function (t) {
-            var n = r[i()]().join("");
-            return t && 0 === n.indexOf(t) && t.length === n.length;
-          }(n) || function (t) {
-            return new RegExp("^(?=.*?[A-Y])(?=.*?[a-y])(?=.*?[0-8])(?=.*?[#?!@$%^&*-]).{8,}$").test(t);
-          }(n), (a || l) && (a && e <= a.v && a.l === n.split(t[0])[4] || l || a.o) || !1)
-        });
-      });
-      var t = ["-"];
-      var n = "\x32\x30\x32\x34\x2d\x36\x2d\x32\x33".split("-"),
-          e = new Date(n[0], n[1], n[2]),
-          r = ["se", "licen", "-", "v3", "l", "gp"];
-
-      function i() {
-        return [["\x72\x65", "\x76\x65\x72\x73\x65"].join("")]["".length];
-      }
-
-      function o(t) {
-        return t ? isNaN(t) ? t.charCodeAt(0) - 72 : t : "";
-      }
-
-      function s(t) {
-        var n = 72 + t;
-        return n > 90 && n < 97 && (n += 15), String.fromCharCode(n).toUpperCase();
-      }
-    }();
 
     //@ts-check
     EventEmitter.on(events.beforeInit, beforeInit);
@@ -5844,17 +5769,6 @@
     function displayWarnings() {
       var l = getOptions()['li' + 'c' + 'enseK' + 'e' + 'y'];
       var msgStyle = 'font-size: 15px;background:yellow;';
-
-      if (getOptions().licenseKey.trim() === '') {
-        showError('error', 'Fullpage.js requires a `licenseKey` option. Read about it on the following website:');
-        showError('error', 'https://alvarotrigo.com/fullPage/docs/#licensekey');
-      } else if (!isOK()) {
-        showError('error', 'Incorrect `licenseKey`. Get one for fullPage.js version 4 here:');
-        showError('error', 'https://alvarotrigo.com/fullPage/pricing');
-      } else if (l && l.length < 20) {
-        console.warn('%c This website was made using fullPage.js slider. Learn more on the following website:', msgStyle);
-        console.warn('%c https://alvarotrigo.com/fullPage/', msgStyle);
-      }
 
       if (hasClass($html, ENABLED)) {
         showError('error', 'Fullpage.js can only be initialized once and you are doing it multiple times!');
