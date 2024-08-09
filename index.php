@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Timoha Birthday Party Invitation</title>
     <link rel="stylesheet" href="./assets/css/plugins/bootstrap.min.css" />
     <link rel="stylesheet" href="./assets/css/plugins/fullpage.css" />
@@ -19,7 +19,7 @@
             <?php include "partials/sections.php"; ?>
         </div>
     </div>
-    <?php include "partials/preloader.php" ?>
+    <?php //include "partials/preloader.php" ?>
     <script src="./assets/js/plugins/jquery.js"></script>
     <script src="./assets/js/plugins/fullpage.js"></script>
     <script src="./assets/js/plugins/bootstrap.min.js"></script>

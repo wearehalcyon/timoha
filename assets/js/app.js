@@ -131,6 +131,40 @@ jQuery(document).ready(function($){
                     $('.tim-02-dialog').attr('src', '../../assets/images/svg/tim-02-dialog-04.svg').removeClass('hide');
                 }, 9400);
             }
+
+            if (destination.index === 2) {
+                // Screen 2 - tim saying
+                setTimeout(function() {
+                    $('.tim-03-dialog').addClass('hide');
+                }, 3000);
+                setTimeout(function() {
+                    $('.tim-03-dialog').attr('src', '../../assets/images/svg/tim-03-dialog-02.svg').removeClass('hide');
+                }, 3100);
+                setTimeout(function() {
+                    $('.tim-03-dialog').addClass('hide');
+                }, 6100);
+                setTimeout(function() {
+                    $('.tim-03-dialog').attr('src', '../../assets/images/svg/tim-03-dialog-03.svg').removeClass('hide');
+                }, 6200);
+                setTimeout(function() {
+                    $('.tim-03-dialog').addClass('hide');
+                }, 9300);
+                setTimeout(function() {
+                    $('.tim-03-dialog').attr('src', '../../assets/images/svg/tim-03-dialog-04.svg').removeClass('hide');
+                }, 9400);
+                setTimeout(function() {
+                    $('.tim-03-dialog').addClass('hide');
+                }, 12400);
+                setTimeout(function() {
+                    $('.tim-03-dialog').attr('src', '../../assets/images/svg/tim-03-dialog-05.svg').removeClass('hide');
+                }, 12500);
+                setTimeout(function() {
+                    $('.tim-03-dialog').addClass('hide');
+                }, 15500);
+                setTimeout(function() {
+                    $('.tim-03-dialog').attr('src', '../../assets/images/svg/tim-03-dialog-06.svg').removeClass('hide');
+                }, 15600);
+            }
         }
     });
 });

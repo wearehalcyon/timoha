@@ -194,7 +194,7 @@ body #app #fullpage .section .fp-overflow .app-container.screen-1 .tim-01 {
 body #app #fullpage .section .fp-overflow .app-container.screen-1 .tim-01.show {
   animation: bounceIn 0.5s ease-out forwards;
 }
-@media (max-width: 992px) {
+@media (max-width: 767px) {
   body #app #fullpage .section .fp-overflow .app-container.screen-1 .tim-01 {
     right: 20px;
     max-width: 300px;
@@ -205,7 +205,7 @@ body #app #fullpage .section .fp-overflow .app-container.screen-1 .tim-01-dialog
   width: calc(45% - 40px);
   height: auto;
   position: absolute;
-  bottom: 30%;
+  top: 35%;
   left: 300px;
   transform: scale(0);
   transition: 0.3s;
@@ -215,21 +215,33 @@ body #app #fullpage .section .fp-overflow .app-container.screen-1 .tim-01-dialog
 body #app #fullpage .section .fp-overflow .app-container.screen-1 .tim-01-dialog-02.show {
   animation: bounceInScale 0.3s ease-out forwards;
 }
-@media (max-width: 992px) {
+@media (max-width: 767px) {
   body #app #fullpage .section .fp-overflow .app-container.screen-1 .tim-01-dialog,
   body #app #fullpage .section .fp-overflow .app-container.screen-1 .tim-01-dialog-02 {
     width: calc(60% - 40px);
-    bottom: 30%;
     left: 50px;
+    top: 31%;
+  }
+}
+@media (max-width: 415px) {
+  body #app #fullpage .section .fp-overflow .app-container.screen-1 .tim-01-dialog,
+  body #app #fullpage .section .fp-overflow .app-container.screen-1 .tim-01-dialog-02 {
+    top: 35%;
+  }
+}
+@media (max-width: 376px) {
+  body #app #fullpage .section .fp-overflow .app-container.screen-1 .tim-01-dialog,
+  body #app #fullpage .section .fp-overflow .app-container.screen-1 .tim-01-dialog-02 {
+    top: 36%;
   }
 }
 body #app #fullpage .section .fp-overflow .app-container.screen-1 .baloons-01 {
   position: absolute;
   width: 100%;
   height: auto;
-  bottom: 0;
+  bottom: 110px;
   transition: all 1s;
-  transform: translateY(100%);
+  transform: translateY(calc(100% + 110px));
   z-index: 9;
 }
 body #app #fullpage .section .fp-overflow .app-container.screen-1 .baloons-01.show {
@@ -238,16 +250,16 @@ body #app #fullpage .section .fp-overflow .app-container.screen-1 .baloons-01.sh
 body #app #fullpage .section .fp-overflow .app-container.screen-1 .button-imaged {
   position: absolute;
   left: 0;
-  bottom: 270px;
+  bottom: 50px;
   width: 100%;
   text-align: center;
   transition: all 0.3s;
   opacity: 0;
   z-index: 10;
 }
-@media (max-width: 992px) {
+@media (max-width: 767px) {
   body #app #fullpage .section .fp-overflow .app-container.screen-1 .button-imaged {
-    bottom: 100px;
+    bottom: 50px;
   }
 }
 body #app #fullpage .section .fp-overflow .app-container.screen-1 .button-imaged a {
@@ -258,7 +270,7 @@ body #app #fullpage .section .fp-overflow .app-container.screen-1 .button-imaged
   width: 100%;
   height: auto;
 }
-@media (max-width: 992px) {
+@media (max-width: 767px) {
   body #app #fullpage .section .fp-overflow .app-container.screen-1 .button-imaged a img {
     width: 200px;
     height: auto;
@@ -266,6 +278,14 @@ body #app #fullpage .section .fp-overflow .app-container.screen-1 .button-imaged
 }
 body #app #fullpage .section .fp-overflow .app-container.screen-1 .button-imaged.show {
   opacity: 1;
+}
+body #app #fullpage .section .fp-overflow .app-container.screen-1 .grass {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
 }
 body #app #fullpage .section .fp-overflow .app-container.screen-2 {
   position: relative;
@@ -276,7 +296,7 @@ body #app #fullpage .section .fp-overflow .app-container.screen-2 {
 body #app #fullpage .section .fp-overflow .app-container.screen-2 .tim-02 {
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: -140px;
   width: 300px;
   height: auto;
 }
@@ -284,7 +304,7 @@ body #app #fullpage .section .fp-overflow .app-container.screen-2 .tim-02-dialog
   position: absolute;
   width: 250px;
   height: auto;
-  top: 10px;
+  top: 220px;
   left: 10px;
   transition: all 0.1s;
   transform: scale(1);
@@ -292,4 +312,144 @@ body #app #fullpage .section .fp-overflow .app-container.screen-2 .tim-02-dialog
 }
 body #app #fullpage .section .fp-overflow .app-container.screen-2 .tim-02-dialog.hide {
   transform: scale(0);
+}
+@media (max-width: 767px) {
+  body #app #fullpage .section .fp-overflow .app-container.screen-2 .tim-02-dialog {
+    top: 110px;
+  }
+}
+@media (max-width: 415px) {
+  body #app #fullpage .section .fp-overflow .app-container.screen-2 .tim-02-dialog {
+    top: 330px;
+  }
+}
+@media (max-width: 376px) {
+  body #app #fullpage .section .fp-overflow .app-container.screen-2 .tim-02-dialog {
+    top: 220px;
+  }
+}
+body #app #fullpage .section .fp-overflow .app-container.screen-2 {
+  position: relative;
+  background: #ffdbdc url("../images/screen-02-bg.jpg") no-repeat center center;
+  background-size: cover;
+  overflow: hidden;
+}
+body #app #fullpage .section .fp-overflow .app-container.screen-2 .tim-02 {
+  position: absolute;
+  right: 0;
+  bottom: -140px;
+  width: 300px;
+  height: auto;
+}
+body #app #fullpage .section .fp-overflow .app-container.screen-2 .tim-02-dialog {
+  position: absolute;
+  width: 250px;
+  height: auto;
+  top: 220px;
+  left: 10px;
+  transition: all 0.1s;
+  transform: scale(1);
+  z-index: 10;
+}
+body #app #fullpage .section .fp-overflow .app-container.screen-2 .tim-02-dialog.hide {
+  transform: scale(0);
+}
+@media (max-width: 767px) {
+  body #app #fullpage .section .fp-overflow .app-container.screen-2 .tim-02-dialog {
+    top: 360px;
+  }
+}
+@media (max-width: 415px) {
+  body #app #fullpage .section .fp-overflow .app-container.screen-2 .tim-02-dialog {
+    top: 330px;
+  }
+}
+@media (max-width: 391px) {
+  body #app #fullpage .section .fp-overflow .app-container.screen-2 .tim-02-dialog {
+    top: 270px;
+  }
+}
+@media (max-width: 376px) {
+  body #app #fullpage .section .fp-overflow .app-container.screen-2 .tim-02-dialog {
+    top: 220px;
+  }
+}
+body #app #fullpage .section .fp-overflow .app-container.screen-3 {
+  position: relative;
+  background: #ffdbdc url("../images/screen-03-bg.jpg") no-repeat center center;
+  background-size: cover;
+  overflow: hidden;
+}
+body #app #fullpage .section .fp-overflow .app-container.screen-3 .tim-03-dialog {
+  position: absolute;
+  width: 250px;
+  height: auto;
+  top: 220px;
+  left: 10px;
+  transition: all 0.1s;
+  transform: scale(1);
+  z-index: 10;
+}
+body #app #fullpage .section .fp-overflow .app-container.screen-3 .tim-03-dialog.hide {
+  transform: scale(0);
+}
+@media (max-width: 767px) {
+  body #app #fullpage .section .fp-overflow .app-container.screen-3 .tim-03-dialog {
+    top: 210px;
+  }
+}
+@media (max-width: 415px) {
+  body #app #fullpage .section .fp-overflow .app-container.screen-3 .tim-03-dialog {
+    top: 200px;
+  }
+}
+@media (max-width: 391px) {
+  body #app #fullpage .section .fp-overflow .app-container.screen-3 .tim-03-dialog {
+    top: 180px;
+  }
+}
+@media (max-width: 376px) {
+  body #app #fullpage .section .fp-overflow .app-container.screen-3 .tim-03-dialog {
+    top: 170px;
+  }
+}
+body #app #fullpage .section .fp-overflow .app-container.screen-4 {
+  position: relative;
+  background: #ffdbdc url("../images/screen-04-bg.jpg") no-repeat center center;
+  background-size: cover;
+  overflow: hidden;
+}
+body #app #fullpage .section .fp-overflow .app-container.screen-4 .tim-04-dialog {
+  position: absolute;
+  width: 250px;
+  height: auto;
+  top: 220px;
+  left: 10px;
+  transition: all 0.1s;
+  transform: scale(1);
+  z-index: 10;
+}
+body #app #fullpage .section .fp-overflow .app-container.screen-4 .tim-04-dialog.hide {
+  transform: scale(0);
+}
+@media (max-width: 767px) {
+  body #app #fullpage .section .fp-overflow .app-container.screen-4 .tim-04-dialog {
+    top: 250px;
+    left: 40px;
+  }
+}
+@media (max-width: 415px) {
+  body #app #fullpage .section .fp-overflow .app-container.screen-4 .tim-04-dialog {
+    top: 240px;
+  }
+}
+@media (max-width: 391px) {
+  body #app #fullpage .section .fp-overflow .app-container.screen-4 .tim-04-dialog {
+    top: 200px;
+  }
+}
+@media (max-width: 376px) {
+  body #app #fullpage .section .fp-overflow .app-container.screen-4 .tim-04-dialog {
+    top: 190px;
+  }
 }/*# sourceMappingURL=app.css.map */
